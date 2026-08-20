@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Featured software development, AI & Machine Learning, and systems projects by Vunnam Karthikeya.">
+    <title>Vunnam Karthikeya | Projects</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- 1. HEADER & NAVBAR -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-emblem">VK</div>
+                <span class="logo-text">Karthikeya<span class="logo-accent">.dev</span></span>
+            </a>
+
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="Technical skills and projects.html" class="nav-link">Skills</a></li>
+                    <li><a href="Projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="Education.html" class="nav-link">Education</a></li>
+                    <li><a href="contactMe.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle Dark/Light Mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- PAGE HERO -->
+        <section class="page-intro-section">
+            <span class="section-subtitle">Portfolio Showcase</span>
+            <h1 class="page-title">Featured Projects</h1>
+            <p class="page-description">
+                Real-world software engineered with clean architectures, modern web standards, and high performance.
+            </p>
+        </section>
+
+        <!-- PROJECTS GRID -->
+        <section class="content-section">
+            <div class="projects-grid">
+                
+                <!-- Main Featured Project: Modern Portfolio Website -->
+                <article class="project-card" data-category="web" style="grid-column: 1 / -1;">
+                    <div class="project-card-header">
+                        <span class="project-badge web-badge">Featured Web Application</span>
+                        <div class="project-links-top">
+                            <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub Repository">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" style="font-size: 1.5rem; margin-bottom: 12px;">Responsive Cyber-Emerald Developer Portfolio</h3>
+                        <p class="project-summary" style="font-size: 1rem; line-height: 1.7; margin-bottom: 20px;">
+                            A modern, high-performance developer portfolio built from scratch. Designed with a custom <strong>Cyber-Emerald &amp; Jade Mint</strong> design system, fluid CSS Grid and Flexbox layouts, dynamic Dark/Light theme switching with LocalStorage persistence, mobile responsive navigation, and WCAG-compliant accessibility.
+                        </p>
+                        
+                        <div class="tech-tags" style="margin-bottom: 24px;">
+                            <span class="tag">Semantic HTML5</span>
+                            <span class="tag">Modern CSS3 (Tokens &amp; Grid)</span>
+                            <span class="tag">Vanilla JavaScript (ES6+)</span>
+                            <span class="tag">Cyber-Emerald Design System</span>
+                            <span class="tag">Responsive UI/UX</span>
+                            <span class="tag">Theme Engine</span>
+                        </div>
+                        
+                        <div class="project-actions" style="gap: 14px; flex-wrap: wrap;">
+                            <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                <span>View on GitHub</span> &rarr;
+                            </a>
+                            <a href="index.html" class="btn btn-outline">Live Home Preview</a>
+                            <a href="Technical skills and projects.html" class="btn btn-outline">Explore Tech Stack</a>
+                            <a href="contactMe.html" class="btn btn-outline">Get in Touch</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- In-Development & Upcoming Card -->
+                <article class="project-card" style="grid-column: 1 / -1; border-style: dashed; border-color: rgba(0, 220, 130, 0.35); background: rgba(14, 25, 20, 0.45);">
+                    <div class="project-card-header">
+                        <span class="project-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border: 1px solid rgba(245, 158, 11, 0.3);">🚀 In Active Development</span>
+                        <div class="project-links-top">
+                            <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer" class="icon-link" title="Follow on GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Upcoming AI/ML &amp; Systems Engineering Projects</h3>
+                        <p class="project-summary">
+                            Currently architecting machine learning pipelines, algorithmic problem-solving tools, and full-stack software as part of my B.Tech coursework and independent engineering explorations. New repositories will be published directly to GitHub.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">AI / Machine Learning</span>
+                            <span class="tag">Data Structures &amp; Algorithms</span>
+                            <span class="tag">Python &amp; C++</span>
+                            <span class="tag">DBMS &amp; SQL</span>
+                        </div>
+                        <div class="project-actions" style="margin-top: 14px;">
+                            <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                                Follow on GitHub for Updates
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-brand">&copy; 2026 Vunnam Karthikeya. Built with semantic HTML &amp; modern CSS.</p>
+            <div class="footer-links">
+                <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/karthikeya-vunnam-9545963a9" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:vunnamkarthikeya0@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 1. Theme Toggle Logic
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle ? themeToggle.querySelector('.theme-icon') : null;
+        
+        function applyTheme(isLight) {
+            if (isLight) {
+                document.body.classList.add('light-theme');
+                if (themeIcon) themeIcon.textContent = '☀️';
+                localStorage.setItem('vk_theme', 'light');
+            } else {
+                document.body.classList.remove('light-theme');
+                if (themeIcon) themeIcon.textContent = '🌙';
+                localStorage.setItem('vk_theme', 'dark');
+            }
+        }
+
+        const storedTheme = localStorage.getItem('vk_theme');
+        if (storedTheme === 'light') {
+            applyTheme(true);
+        } else if (storedTheme === 'dark') {
+            applyTheme(false);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            applyTheme(true);
+        }
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const isCurrentlyLight = document.body.classList.contains('light-theme');
+                applyTheme(!isCurrentlyLight);
+            });
+        }
+
+        // 2. Mobile Responsive Navigation
+        const mobileToggle = document.getElementById('mobile-nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                const isOpen = navMenu.classList.toggle('open');
+                mobileToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!mobileToggle.contains(e.target) && !navMenu.contains(e.target) && navMenu.classList.contains('open')) {
+                    navMenu.classList.remove('open');
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

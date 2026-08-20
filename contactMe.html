@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Vunnam Karthikeya for software engineering internships, AI/ML research collaborations, and project inquiries.">
+    <title>Vunnam Karthikeya | Contact Me</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- 1. HEADER & NAVBAR -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-emblem">VK</div>
+                <span class="logo-text">Karthikeya<span class="logo-accent">.dev</span></span>
+            </a>
+
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="Technical skills and projects.html" class="nav-link">Skills</a></li>
+                    <li><a href="Projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="Education.html" class="nav-link">Education</a></li>
+                    <li><a href="contactMe.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle Dark/Light Mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- PAGE HERO -->
+        <section class="page-intro-section">
+            <span class="section-subtitle">Get In Touch</span>
+            <h1 class="page-title">Let's Connect &amp; Collaborate</h1>
+            <p class="page-description">
+                I am actively seeking software engineering and AI/ML internship opportunities for 2026/2027. Whether you have a question, opportunity, or simply want to talk tech, my inbox is open!
+            </p>
+        </section>
+
+        <div class="contact-layout-grid">
+            <!-- 2. SOCIAL LINKS & DIRECT CONTACT -->
+            <section class="contact-info-panel">
+                <div class="info-card">
+                    <h2 class="card-title">Direct Channels</h2>
+                    <p class="panel-desc">Reach out via any of my active professional profiles:</p>
+
+                    <div class="contact-direct-links">
+                        <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer" class="direct-link-card">
+                            <div class="link-icon-box">💻</div>
+                            <div class="link-info">
+                                <strong>GitHub</strong>
+                                <span>github.com/KarthikeyaVunnam05</span>
+                                <small>Explore repositories, algorithm implementations, and web code.</small>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/karthikeya-vunnam-9545963a9" target="_blank" rel="noopener noreferrer" class="direct-link-card">
+                            <div class="link-icon-box">💼</div>
+                            <div class="link-info">
+                                <strong>LinkedIn</strong>
+                                <span>linkedin.com/in/karthikeya-vunnam</span>
+                                <small>Connect for internship recruitment and professional networking.</small>
+                            </div>
+                        </a>
+
+                        <a href="mailto:vunnamkarthikeya0@gmail.com" class="direct-link-card">
+                            <div class="link-icon-box">📧</div>
+                            <div class="link-info">
+                                <strong>Email</strong>
+                                <span>vunnamkarthikeya0@gmail.com</span>
+                                <small>Expected response within 24 hours.</small>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/kxrthikeya.v" target="_blank" rel="noopener noreferrer" class="direct-link-card">
+                            <div class="link-icon-box">📸</div>
+                            <div class="link-info">
+                                <strong>Instagram</strong>
+                                <span>@kxrthikeya.v</span>
+                                <small>Follow personal interests, fitness discipline, and lifestyle.</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. CONTACT FORM -->
+            <section class="contact-form-panel">
+                <div class="form-container-card">
+                    <h2 class="card-title">Send a Direct Message</h2>
+                    <p class="panel-desc">Fill out the form below and your message will be dispatched directly to my inbox.</p>
+
+                    <form id="contact-form" class="modern-form">
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required-star">*</span></label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Alex Johnson" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required-star">*</span></label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="e.g. alex@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required-star">*</span></label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="e.g. Internship Opportunity / Project Collaboration" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span class="required-star">*</span></label>
+                            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Hi Karthikeya, I came across your portfolio..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-spinner" aria-hidden="true"></span>
+                        </button>
+
+                        <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-brand">&copy; 2026 Vunnam Karthikeya. Built with semantic HTML &amp; modern CSS.</p>
+            <div class="footer-links">
+                <a href="https://github.com/KarthikeyaVunnam05" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/karthikeya-vunnam-9545963a9" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:vunnamkarthikeya0@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 1. Theme Toggle Logic
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle ? themeToggle.querySelector('.theme-icon') : null;
+        
+        function applyTheme(isLight) {
+            if (isLight) {
+                document.body.classList.add('light-theme');
+                if (themeIcon) themeIcon.textContent = '☀️';
+                localStorage.setItem('vk_theme', 'light');
+            } else {
+                document.body.classList.remove('light-theme');
+                if (themeIcon) themeIcon.textContent = '🌙';
+                localStorage.setItem('vk_theme', 'dark');
+            }
+        }
+
+        const storedTheme = localStorage.getItem('vk_theme');
+        if (storedTheme === 'light') {
+            applyTheme(true);
+        } else if (storedTheme === 'dark') {
+            applyTheme(false);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            applyTheme(true);
+        }
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const isCurrentlyLight = document.body.classList.contains('light-theme');
+                applyTheme(!isCurrentlyLight);
+            });
+        }
+
+        // 2. Mobile Responsive Navigation
+        const mobileToggle = document.getElementById('mobile-nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        if (mobileToggle && navMenu) {
+            mobileToggle.addEventListener('click', () => {
+                const isOpen = navMenu.classList.toggle('open');
+                mobileToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!mobileToggle.contains(e.target) && !navMenu.contains(e.target) && navMenu.classList.contains('open')) {
+                    navMenu.classList.remove('open');
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        // 3. Contact Form Submission & Feedback Handler
+        const contactForm = document.getElementById('contact-form');
+        const formFeedback = document.getElementById('form-feedback');
+        const submitBtn = document.getElementById('submit-btn');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const subject = document.getElementById('subject').value.trim();
+                const message = document.getElementById('message').value.trim();
+
+                if (!name || !email || !subject || !message) {
+                    showFeedback('Please fill out all required fields before sending.', 'error');
+                    return;
+                }
+
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.querySelector('.btn-text').textContent = 'Opening Mail App...';
+                }
+
+                // Construct mailto link with prefilled parameters
+                const mailtoUrl = `mailto:vunnamkarthikeya0@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Sender Name: " + name + "\nSender Email: " + email + "\n\nMessage:\n" + message)}`;
+                
+                window.location.href = mailtoUrl;
+
+                showFeedback('✓ Thank you! Your default email client has been launched with your prefilled message.', 'success');
+                contactForm.reset();
+
+                setTimeout(() => {
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.querySelector('.btn-text').textContent = 'Send Message';
+                    }
+                }, 2500);
+            });
+        }
+
+        function showFeedback(msg, type) {
+            if (!formFeedback) return;
+            formFeedback.textContent = msg;
+            formFeedback.className = `form-feedback ${type}`;
+        }
+    </script>
+</body>
+</html>
